@@ -1,12 +1,12 @@
 {
-  "name": "playwright",
-  "version": "1.58.0-next",
-  "description": "A high-level API to automate web browsers",
+  "name": "playwright-electron-mcp",
+  "version": "1.58.0-alpha.2",
+  "description": "Playwright with Electron MCP support. Fork of playwright with added Electron automation capabilities for MCP servers.",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/microsoft/playwright.git"
+    "url": "git+https://github.com/caweinshenker/playwright.git"
   },
-  "homepage": "https://playwright.dev",
+  "homepage": "https://github.com/caweinshenker/playwright",
   "engines": {
     "node": ">=18"
   },
@@ -64,7 +64,7 @@
   },
   "license": "Apache-2.0",
   "dependencies": {
-    "playwright-core": "1.58.0-next"
+    "playwright-core": "1.58.0-alpha-2025-12-30"
   },
   "optionalDependencies": {
     "fsevents": "2.3.2"
